@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Services - Kelly Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/database.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Simret</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="resume.html">Resume</a></li> -->
+          <li><a href="services.html">Research Project</a></li>
+          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+          <!-- <li><a href="contact.html">Contact</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <a href="https://github.com/Simret-Melak?tab=repositories" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/simret-melak-3837b0243/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main>
+    <section class="about">
+    
+      <div class="about-text">
+      <h2><u>Analyzing the effects of colonialism through the lenses of databases</u></h2>
+  <P>Our database project aims to examine the lasting impact of colonialism on Africa, using relational, graph
+    and spatial databases. Me and my partner explored major conflicts in Africa since decolonization and trace
+     their roots to events that occurred during the colonial era. Through this, we demonstrated how these
+      conflicts have affected the continent's economy, resources, and geopolitical relations, both historically
+       and in the present day.
+</P>
+<p>
+  Our project also compares the differences and similarities between relational and graph databases and
+            evaluate their respective strengths and weaknesses in various scenarios. By providing insights into the
+            suitability of each database type, we hope to contribute to the ongoing conversation about the best
+            practices for data management and analysis.<br>
+  Here is one of the many maps we made using spatial data and QGIS. This map shows the economy in relation to the number of years of conflict.
+
+</p>
+    </div>
+    <img src="assets/img/gdp in relation to number of years of conflict.png" alt="Map of africa gdp in relation to conflict" id="image_intro"> 
+      </section>
+  
+      <section class="about" id="about">
+    
+        <div class="about-text-schema">
+    
+          <div class="text">
+        <h2>Graph database (Neo4j)</h2>
+  <p>Graph databases are designed to handle complex relationships between data entities, making them well-suited for scenarios where relationships are a
+    key focus. Therefore, we used them to show different kinds of relationships between African countries, the conflicts,colonial powers, organizations and so on.
+      </p>
+      <p>
+        For example in this comprehensive graph representation, we present an intricate web of relationships
+        that encapsulate the dynamic narrative of the First Congo War. Each node within the graph
+        embodies a distinct entity, be it a Colony, Other Country, Organization, or the driving Causes
+         behind the conflict. These entities come to life through carefully curated labels and properties,
+       painting a vivid picture of the diverse actors involved in this historical event.
+      </p>
+      <p>
+        Our graph visualization isn't just informative; it's designed for exploration.
+        Users can delve deeper into specific aspects of the conflict, expand nodes of interest,
+         and interact with the graph to uncover hidden details. A clear title and description provide context,
+       while an intuitive legend deciphers the graph's visual language.
+      </p>
+      </div>
+    
+          </div>
+          <img src="assets/img/firstCongoWarRelationships.png" alt="relationships during the first congo war" id="image_schema"> 
+        </section>
+        </section>
+        <section class="our-goal">
+         
+         <div class="column-left">
+          <!-- <h2>Schema</h2> -->
+          <img src="assets/img/database schema.png" alt="tables and connections" id="image_meth"> 
+        </div>
+        <div class="column-right">
+          <h2>Relational Database(MySQL)</h2>
+          <p>Our relational database has 17 tables.By combining this tables we can get many valuable 
+            information like how many people died in a specific conflict,how the economy of that country
+             looks during each conflict, how many conflicts happened in British colonies, how many conflicts
+              were caused over resource control and so on. We used relational databases to show numerical data
+               because relational databases excel at organizing numerical data in structured tables with predefined
+                schemas. This structure allows for efficient storage and retrieval of numerical values, making
+                 them suitable for large datasets with well-defined data types.
+          </p>
+        </div>
+      </section>
+         
+         
+      </section>
+    <section class = "end">
+      <div class="about-text">
+        <h2>Example outcome from our relational database</h2>
+        <p>Here is an example of what our relational database can do. This is an insight how the Rwandan genocide impacted the country's economy. The war started in 1994 so based on that, we viewed the economy of Rwanda a few years before and after the war. We can see that during 1994 the economy of Rwanda dropped by 50% showing how much the conflict affected the economy. Then It took them 5 years to get back to where they were.
+        </p>
+      </div>
+      <img src="assets/img/table1.png" alt="Rwandan Economy" id="image_m"> 
+      </section>
+        
+    
+    </main>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kelly</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
